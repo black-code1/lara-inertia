@@ -5,7 +5,7 @@
         </h1>
 
         <div style="margin-top: 400px">
-            <p>The current time is {{time}}</p>
+            <p>The current time is {{time}}.</p>
 
             <Link
                 href="/users"
@@ -17,12 +17,13 @@
     </Layout>
 </template>
 
-<script>
+<script setup>
 import Layout from '../Shared/Layout'
 import {Link} from "@inertiajs/inertia-vue3";
-export default{
-    components: {Layout, Link}
-}
+
+defineProps({
+    time: String
+})
 </script>
 
 
