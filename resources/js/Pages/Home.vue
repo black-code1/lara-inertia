@@ -9,7 +9,7 @@
 <script>
 import Layout from '../Shared/Layout'
 export default{
-components: {Layout}
+components: {Layout},
 }
 </script>
 
