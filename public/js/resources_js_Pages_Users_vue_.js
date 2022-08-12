@@ -6,7 +6,7 @@
   \***************************************/
 /***/ (() => {
 
-throw new Error("Module parse failed: Unexpected token (1:0)\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\n> <template>\n|     <Head>\n|         <title>My App - Users</title>");
+throw new Error("Module build failed: Error: ENOENT: no such file or directory, open '/home/legrand/Projects/laracasts/lara-inertia/resources/js/Pages/Users.vue~'");
 
 /***/ })
 
